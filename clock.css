@@ -230,7 +230,8 @@ button:hover{
     max-width: 23em;
         position: absolute;
         left: 47%;
-        bottom: 20%;
+        bottom: 12%;
+        background-color: white;
   }
   
   blockquote {

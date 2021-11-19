@@ -95,11 +95,11 @@ function create(){
        if( (time==z) || (time==r) ||(time==g)){
            if( time == z){
                messageText="WAKE UP!!";
-               image="https://static.toiimg.com/photo/78701134.cms";;
+               image="wakeupblockimage.svg";;
            }
            else if( time ==r){
                messageText="LET'S HAVE SOME LUNCH !!";
-               image="https://memegenerator.net/img/instances/80379437.jpg";
+               image="lunchblockimage.svg";
            }
            else if( time ==g){
                messageText="GOOD NIGHT!!";
@@ -108,7 +108,7 @@ function create(){
        }
        else
        {
-           messageText="hi good mrng"
+           messageText="Nature is art of god"
            image="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__340.jpg"
        }
        timeEventJS.innerText = messageText;
