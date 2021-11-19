@@ -1,0 +1,257 @@
+.main{
+
+    background-color:#3D087B ;
+    height: 500px;
+    width: 65%;
+    margin-left:15%;
+}
+
+
+.timer{
+    position: absolute;
+    left:48%;
+    top: 13%;
+    border:1px solid black;
+    display: flex;
+    width: 25%;
+    height:55px;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: Orbitron;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  rgb(247, 247, 247) 5px 25px 2px -19px,
+    rgba(162, 162, 162, 0.5) 6px 39px 2px -24px;
+    
+}
+.b{ 
+   
+    /* border:1px solid black; */
+    height: 50px;
+    width:50px;
+   color:#5F0089;
+    border-radius: 5px;
+    background-color: #F6E2FF;
+  
+    text-align: center;
+}
+.b1{
+    height: 50px;
+    width:50px;
+   color:#5F0089;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.b2{ 
+    border:1px solid black;
+    height: 50px;
+    width:50px;
+    display: inline-block;
+    border-radius: 10px;
+  
+    
+
+}
+.b3{ 
+    border:1px solid black;
+    height: 50px;
+    width:50px;
+    display:  inline-block;
+    border-radius: 10px;
+}
+.b4{ 
+    border:1px solid black;
+    height: 50px;
+    width:50px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.b5{ 
+    border:1px solid black;
+    height: 50px;
+    width:50px;
+    display:  inline-block;
+    border-radius: 10px;
+    background-image: url(./session.png);
+}
+
+body {
+    background:white;
+}
+.time{
+   
+    font-size: 16px;
+    position: absolute;
+    top: 33%;
+    left: 2%;
+    color:#3D087B;
+    background-color: white;
+}
+span{
+    font-size: 16px;
+    position: absolute;
+    top: 59%;
+    left: 23%;
+    
+}
+.mins{
+    font-size: 16px;
+    position: absolute;
+    top: 59%;
+    left: 43%;
+   
+}
+.secs{
+    font-size: 16px;
+    position: absolute;
+    top: 58%;
+    left: 63%;
+}
+.period{
+    font-size: 14px;
+    position: absolute;
+    top: 19%;
+    left: 69%;
+}
+.sym{
+    margin-top: 5%;
+}
+.clock{
+    /* border: 1px solid black; */
+    height: 59px;
+    width: 30%;
+    position: absolute;
+    top: 12%;
+    left: 18%;
+}
+.timeset-box{
+    height: 160px;
+        width: 25%;
+        position: absolute;
+        top: 30%;
+        border-radius: 12px;
+        left: 18%;
+        background-color: white;
+        display: flex;
+        color: #3D087B;
+}
+.images{
+    height:140px;
+    width: 10%;
+    display: block;
+}
+.line{
+    border-left: 1px solid black;
+    margin-top: 2%;
+    margin-left: 14px;
+    height: 27px;
+}
+.dropdrownbox{
+    height:140px;
+    display: block;
+    color: #3D087B;
+
+}
+.hedings{
+    position: absolute;
+    top: 3%;
+    left: 10%;
+    font-size: 1em;
+    display: block;
+}
+
+.select{
+    margin-left: 118%;
+    margin-top: 5%;
+    color: #3D087B;
+}
+.text1{
+    position: absolute;
+    top: 3%;
+    left: 10%;
+    font-size: 1em;
+}
+.select1{
+    margin-left: 118%;
+    margin-top: 37%;
+}
+.text2{
+    position: absolute;
+    top: 39%;
+    left: 12%;
+    font-size: 1em;
+}
+.select2{
+    margin-left: 118%;
+    margin-top: 37%;
+}
+.text3{
+    position: absolute;
+    top: 74%;
+    left: 12%;
+    font-size: 1em;
+}
+button{
+    width: 25%;
+    height: 40px;
+    position: absolute;
+    top: 60%;
+    border: 1px solid black;
+    left: 18%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    color:#FFFFFF;
+    font-size: 1.5em;
+    font-weight: bolder;
+    /* background-color: white; */
+    background-image: linear-gradient(to right,#6E54EC 5%,#CB52F8,#FC5EFF);
+}
+button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to left,#6E54EC 5%,#CB52F8,#FC5EFF);
+}
+.newbox{
+    position:absolute;
+    top: 70%;
+    left:18%;
+    width: 25%;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #8E53F0;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+#lolcatImage {
+    max-width: 23em;
+        position: absolute;
+        left: 47%;
+        bottom: 20%;
+  }
+  
+  blockquote {
+    font: 1.5em'Open Sans', sans-serif;
+    /* -webkit-text-stroke: 1
+px
+ black; */
+    /* text-shadow: 2px 2px #000; */
+    margin: -80px 0 100px 0;
+    color: #F25CFE;
+    position: relative;
+    top: 31%;
+    left: 50%;
+    font-weight: bolder;
+  }
+  
+  
+  #lolcat {
+    margin: 0 auto;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 10px;
+    border:10px solid #222;
+  } 
