@@ -88,9 +88,9 @@ function create(){
     // document.getElementById("MyClockDisplay").innerText = time;
     // setTimeout(create(), 1000);
     var messageText;
-       var image ="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__340.jpg"
+       var image ="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/d99a2025-389a-457c-aa69-00d1e7061341/d2sqji8-73eca998-5e1b-4ae2-9b24-3fa194a34893.jpg"
        var timeEventJS = document.getElementById("timeEvent");
-       var lolcatImageJS = document.getElementById('lolcatImage');
+       var lolImageJS = document.getElementById('lolImage');
 
        if( (time==z) || (time==r) ||(time==g)){
            if( time == z){
@@ -108,11 +108,11 @@ function create(){
        }
        else
        {
-           messageText="Nature is art of god"
-           image="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__340.jpg"
+           messageText="Time is not yet done"
+           image="https://media.istockphoto.com/photos/sky-and-grass-backround-picture-id182493016?k=20&m=182493016&s=170667a&w=0&h=czS1SqvetVNHDquaCmvsHd24r6RnLPSxN_rNkQPeFig="
        }
        timeEventJS.innerText = messageText;
-      lolcatImageJS.src = image;
+      lolImageJS.src = image;
 }
 // x.onchange=create;
 // create();
