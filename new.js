@@ -88,7 +88,7 @@ function create(){
     // document.getElementById("MyClockDisplay").innerText = time;
     // setTimeout(create(), 1000);
     var messageText;
-       var image ="https://images.unsplash.com/photo-1567529862149-f608e4ec2eec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+       var image ="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__340.jpg"
        var timeEventJS = document.getElementById("timeEvent");
        var lolImageJS = document.getElementById('lolImage');
 
@@ -109,7 +109,7 @@ function create(){
        else
        {
            messageText="Time is not yet done"
-           image="https://media.istockphoto.com/photos/sky-and-grass-backround-picture-id182493016?k=20&m=182493016&s=170667a&w=0&h=czS1SqvetVNHDquaCmvsHd24r6RnLPSxN_rNkQPeFig="
+           image="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__340.jpg"
        }
        timeEventJS.innerText = messageText;
       lolImageJS.src = image;
