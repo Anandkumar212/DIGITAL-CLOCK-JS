@@ -232,6 +232,7 @@ button:hover{
         left: 47%;
         bottom: 12%;
         background-color: white;
+        border-radius: 10px;
   }
   
   blockquote {
