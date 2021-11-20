@@ -109,7 +109,7 @@ function create(){
        else
        {
            messageText="Time is not yet done"
-           image="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__340.jpg"
+           image="https://simg.nicepng.com/png/small/221-2212639_free-waiting-emoji-waiting-emoji.png"
        }
        timeEventJS.innerText = messageText;
       lolImageJS.src = image;
